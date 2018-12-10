@@ -10,7 +10,7 @@ public class TestController {
 
     @GetMapping("/test1")
     public String testController(){
-        String msg = "你好";
+        String msg = "你好,2018-12-10";
         return msg;
     }
 }
